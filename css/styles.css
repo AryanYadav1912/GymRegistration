@@ -1,0 +1,109 @@
+body{
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+}
+.navbar{
+    display: inline-block;
+    padding-right: 30px;
+    width: 462px;
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    color: white;
+    padding: 10px;
+
+
+}
+.navbar li:hover,.navbar li.active{
+    text-decoration: underline;
+    color: grey;
+    cursor: pointer;
+
+}
+.left{
+    position: absolute;
+    top: 0px;
+}
+.left img{
+    width:130px;
+    color: grey;
+    padding:0px;
+    margin-top: 0px;
+    height: 101px;
+}
+.left h6{
+    margin-top: 0px;
+    text-align: center;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-flex;
+    top:2 0px;
+    color: white;
+}
+.btn1{
+    margin: 0px 9px;
+    background-color: black;
+    color: rgb(255, 242, 242);
+    border-radius: 10px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    font-size: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn1:hover{
+    background-color: rgb(39, 36, 36);
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.container{
+    margin: 216px 84px;
+    color: white;
+    border-radius: 28px;
+    margin-left: 80px;
+    margin-right: 269px;
+    border-right-width: 0px;
+    padding-right: 0px;
+    height: 355px;
+    width: 614px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.form-group1 input{
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 8px;
+    background-color: rgb(68, 61, 61);
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 8px;
+    border-radius: 10px;
+}
+.form-group1 input:hover{
+    background-color: rgb(51, 48, 48);
+    color: white;
+}
+.btn2{
+    margin: 0px 9px;
+    background-color: rgba(46, 43, 43, 0.24);
+    color: rgb(255, 242, 242);
+    border-radius: 10px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    font-size: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    width:200px;
+
+}.btn2:hover{
+    background-color: white;
+    color:black;
+}
